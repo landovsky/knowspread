@@ -1,0 +1,8 @@
+site_name: Knowspread dokumentace
+theme:
+  name: material
+  language: cs
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.indexes
