@@ -1,8 +1,31 @@
 site_name: Knowspread dokumentace
+edit_uri: edit/main/docs/
+repo_url: https://github.com/landovsky/knowspread
+
+extra:
+  homepage: https://www.knowspread.com
 theme:
   name: material
+  logo: assets/knowspread-logo.png
   language: cs
+  icon:
+    edit: material/pencil
+    view: material/eye
   features:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.indexes
+    - content.action.edit
+  palette:
+    - scheme: default
+      primary: teal
+      toggle:
+        icon: material/brightness-7
+        name: Přepnout do nočního režimu
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: teal
+      toggle:
+        icon: material/brightness-4
+        name: Přepnout do denního režimu
