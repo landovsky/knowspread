@@ -1,5 +1,7 @@
 # Studium
 
+Moje Změna.
+
 ## Maintenance mode
 App platform does not support maintenance mode. I can be achieved in Cloudflare by:
 - proxying knowspread.com CNAMEs through Cloudflare (setting them as "proxied")
